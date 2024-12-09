@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: #ececec;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 1200px;
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* text-align: center; */
+}
+
+#titlebanner{
+    background-color: black;
+    float: left;
+    margin-right: 20px;
+}
+
+#imgbanner{
+    background-color: black;
+    float: left;
+}
+
+
+
+#eslogan{
+    background-color: black;
+    /* float: left; */
+}
+
+.titulo{
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo2 {
+    font-family: 'Anton', sans-serif; /* Asegúrate de usar la fuente que deseas */
+    color: white; /* Color base del texto */
+    text-align: center;
+    font-size: 40px;
+    text-shadow:
+        0 0 5px #ffffff,   /* Luz suave */
+        0 0 1px #949494,  /* Luz media */
+        0 0 5px #7e7e7e,  /* Luz intensa */
+        0 0 3px #c5c5c5, 
+        0 0 4px #ffffff, 
+        0 0 5px #ffffff;
+}
+
+
+aside{
+    float: right;
+    margin-left: 100px;
+}
+
+.imgAside{
+    right: 100px;
+}
+
+
+.producto{
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.nombre_producto{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ececec;
+    margin-bottom: 30px;
+    /* border-radius: 20px; */
+    padding: 10px;
+}
+
+.vheader{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+aside{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+/* footer */
+footer{
+    background-color:#7e7e7e ;
+    display: flex;
+
+}
+footer div{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgfooter{
+    margin-top: 10px;
+    float: right;
+    margin-right: 160px;
+    padding: auto;
+}
+
+.imgfooter div{
+    margin-right: 20px;
+}
+
+/* redes */
+
+.redes{
+    margin-left: 80rem;
+    padding: auto;
+}
